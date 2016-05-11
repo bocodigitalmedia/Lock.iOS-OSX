@@ -142,7 +142,7 @@ AUTH0_DYNAMIC_LOGGER_METHODS
 }
 
 - (A0LockControllerSupportedOrientation)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskPortraitUpsideDown;
+    return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscape;
 }
 
 - (void)dismiss:(id)sender {
