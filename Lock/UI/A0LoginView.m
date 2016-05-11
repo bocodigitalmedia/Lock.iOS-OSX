@@ -203,8 +203,8 @@
 - (void)disableEnterpriseSSO {
     _enterpriseSSOEnabled = NO;
     self.ssoView.hidden = YES;
-    self.passwordField.hidden = NO;
-    [self.submitButton setTitle:A0LocalizedString(@"ACCESS") forState:UIControlStateNormal];
+    self.passwordField.hidden = YES;
+    [self.submitButton setTitle:A0LocalizedString(@"Login") forState:UIControlStateNormal];
     self.submitButton.accessibilityHint = A0LocalizedString(@"Login with email and password");
 }
 
