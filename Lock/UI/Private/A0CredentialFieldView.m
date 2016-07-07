@@ -70,7 +70,7 @@
     A0Theme *theme = [A0Theme sharedInstance];
     switch (_type) {
         case A0CredentialFieldViewEmail:
-            self.placeholderText = A0LocalizedString(@"Genentech Email");
+            self.placeholderText = A0LocalizedString(@"Email");
             self.textField.keyboardType = UIKeyboardTypeEmailAddress;
             self.iconImageView.image = [[theme imageForKey:A0ThemeIconEmail] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
             break;
